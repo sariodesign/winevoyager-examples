@@ -5,7 +5,7 @@ Small, runnable examples for the [WineVoyager API](https://api.winevoyager.tours
 | Example | What it shows |
 |---|---|
 | [`explorer/`](explorer/) | A zero-dependency HTML + JS page: filter denominations by region, province and colour, search by name, open a record with its grapes and official source. **[Live demo](https://sariodesign.github.io/winevoyager-examples/explorer/)** |
-| `mcp-sommelier/` *(coming next)* | Plug the MCP server into Claude or Cursor and ask wine-law questions answered from the records. |
+| [`mcp-sommelier/`](mcp-sommelier/) | Plug the MCP server into Claude, Cursor or VS Code and ask wine-law questions answered from the records; plus a minimal MCP client (no SDK) that shows what the assistant receives. |
 
 All examples use the **Basic** level: no signup, no key. Basic gives every denomination's core data, and the full record (wine types, grapes with percentages, methods) for 8 showcase denominations.
 
