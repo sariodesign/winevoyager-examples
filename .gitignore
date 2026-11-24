@@ -1,0 +1,13 @@
+# Never commit secrets: a WineVoyager `full` key must stay out of this public repo.
+.env
+.env.*
+*.key
+
+# Never commit copies of API data (the licence forbids bulk copies and permanent indexes).
+*.dump.json
+data/
+
+# Tooling
+node_modules/
+.DS_Store
+.vercel/
